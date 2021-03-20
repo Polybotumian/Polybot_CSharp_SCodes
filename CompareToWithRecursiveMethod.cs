@@ -8,7 +8,7 @@ namespace konsolDeneme
         {   //Our first input            
             string str0 = Console.ReadLine();
             //Our second input for compare to first input to check if they are same or not
-            string str1 = Console.ReadLine();
+            string str1 = Console.ReadLine();     
             //This is our char counter
             int i = 0;
 
@@ -17,8 +17,8 @@ namespace konsolDeneme
             str1 = str1.Trim();
 
             //This one is the solution for recursive return problem. It will feed back about our inputs with some kind of a string pseudo code
-            string fin = null;
-
+            string fin = null;                                                                   
+            
             //Calling for recursive method
             fin = compareTo(str0, str1, i, fin);
 
@@ -31,14 +31,14 @@ namespace konsolDeneme
                 Console.WriteLine("\n" + str0 + " and " + str1 + " are same!");
             }
             //You can see pseudo code with this
-            Console.WriteLine("\n" + fin);
+            Console.WriteLine("\n"+fin); 
         }
 
         //Our recursive method
-        public static string compareTo(string str0, string str1, int i, string fin)
+        public static string compareTo(string str0, string str1, int i, string fin)              
         {
             //Checks if the inputs are have different length already
-            if (str0.Length != str1.Length)
+            if (str0.Length != str1.Length)                                                    
             {
                 //Inputs are not same so it adds "False" string to fin variable
                 fin += "False";
@@ -61,6 +61,7 @@ namespace konsolDeneme
                 }
             }
             //End of recursive method
+            fin += null;
             return fin;
         }
 
