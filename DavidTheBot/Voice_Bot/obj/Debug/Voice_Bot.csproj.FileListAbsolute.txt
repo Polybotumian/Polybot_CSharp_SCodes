@@ -1,0 +1,13 @@
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\bin\Debug\Voice_Bot.exe.config
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\bin\Debug\Voice_Bot.exe
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\bin\Debug\Voice_Bot.pdb
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.csprojAssemblyReference.cache
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.Properties.Resources.resources
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.csproj.GenerateResource.cache
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.csproj.CoreCompileInputs.cache
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.exe
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.pdb
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.FormMain.resources
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.FormLoad.resources
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.FormSplashScreen.resources
+C:\Users\Otlar\OneDrive\Masaüstü\C#Genel\C#WindowsForms\Voice_Bot\obj\Debug\Voice_Bot.csproj.AssemblyReference.cache
