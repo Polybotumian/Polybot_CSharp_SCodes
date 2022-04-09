@@ -1,0 +1,50 @@
+C:\Users\Otlar\source\repos\Vs2022\OFDR\bin\Debug\net6.0-windows\OFDR.exe
+C:\Users\Otlar\source\repos\Vs2022\OFDR\bin\Debug\net6.0-windows\OFDR.deps.json
+C:\Users\Otlar\source\repos\Vs2022\OFDR\bin\Debug\net6.0-windows\OFDR.runtimeconfig.json
+C:\Users\Otlar\source\repos\Vs2022\OFDR\bin\Debug\net6.0-windows\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\bin\Debug\net6.0-windows\OFDR.pdb
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.AssemblyReference.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.GenerateResource.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.AssemblyInfoInputs.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.AssemblyInfo.cs
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.CoreCompileInputs.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\refint\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.pdb
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.genruntimeconfig.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\ref\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\obj\Debug\net6.0-windows\OFDR.OfdrForm.resources
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\bin\Debug\net6.0-windows\OFDR.exe
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\bin\Debug\net6.0-windows\OFDR.deps.json
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\bin\Debug\net6.0-windows\OFDR.runtimeconfig.json
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\bin\Debug\net6.0-windows\OFDR.dll
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\bin\Debug\net6.0-windows\ref\OFDR.dll
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\bin\Debug\net6.0-windows\OFDR.pdb
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.OfdrForm.resources
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.GenerateResource.cache
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.AssemblyInfoInputs.cache
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.AssemblyInfo.cs
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.CoreCompileInputs.cache
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.dll
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\ref\OFDR.dll
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.pdb
+C:\Users\FATMA YILMAZ\OneDrive\Masaüstü\OFDR\obj\Debug\net6.0-windows\OFDR.genruntimeconfig.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\bin\Debug\net6.0-windows\OFDR.exe
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\bin\Debug\net6.0-windows\OFDR.deps.json
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\bin\Debug\net6.0-windows\OFDR.runtimeconfig.json
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\bin\Debug\net6.0-windows\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\bin\Debug\net6.0-windows\ref\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\bin\Debug\net6.0-windows\OFDR.pdb
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.AssemblyReference.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.OfdrForm.resources
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.GenerateResource.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.AssemblyInfoInputs.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.AssemblyInfo.cs
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.csproj.CoreCompileInputs.cache
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\ref\OFDR.dll
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.pdb
+C:\Users\Otlar\source\repos\Vs2022\OFDR\OFDR\obj\Debug\net6.0-windows\OFDR.genruntimeconfig.cache
