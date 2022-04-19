@@ -1,0 +1,18 @@
+﻿@model OkOt.Models.Entities.AkademisyenDersler
+@{
+    ViewBag.Title = "DersEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Akademisyene Ders Ekle</h2>
+
+<form class="form-horizontal" method="post" action="/Akademisyen/DersEkle">
+    @Html.Hidden("DersKod")
+    @Html.Hidden("AkademisyenKod")
+    <div class="form-group">
+        <label>Ders</label>
+        @Html.DropDownListFor(x => x.DersKod, ViewBag.dersler as SelectList, new { @class = "form-control" })
+    </div>
+    <input type="submit" class="btn btn-primary" value="Kaydet"/>
+</form>
+

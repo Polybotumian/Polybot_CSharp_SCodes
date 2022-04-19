@@ -1,0 +1,42 @@
+﻿@model OkOt.Models.Entities.Ogrenci
+@{
+    ViewBag.Title = "OgrEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Öğrenci Ekle</h2>
+
+<form class="form-horizontal" method="post" action="../Ogrenci/OgrEkle">
+    <div class="form-group">
+        <label>Ad</label>
+        <input type="text" class="form-control" name="OgrenciAdi" />
+    </div>
+    <div class="form-group">
+        <label>Soyad</label>
+        <input type="text" class="form-control" name="OgrenciSoyadi" />
+    </div>
+    <div class="form-group">
+        <select class="form-control" name="OgrenciCinsiyet">
+            <option value="Erkek">Erkek</option>
+            <option value="Kadın">Kadın</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Bölümü</label>
+        @Html.DropDownListFor(x => x.BolumOgrenci, ViewBag.Bolumler as SelectList, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Dogum Tarihi</label>
+        <input type="text" class="form-control" name="OgrenciDogumTarihi" />
+    </div>
+    <div class="form-group">
+        <label>Adres</label>
+        <textarea class="form-control" name="OgrenciAdres" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+        <label>T.C. Kimlik No</label>
+        <input type="text" class="form-control" name="OgrenciTc" />
+    </div>
+    <input type="submit" class="btn btn-primary" value="Kaydet" />
+</form>
+

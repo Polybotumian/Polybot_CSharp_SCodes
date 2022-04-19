@@ -1,0 +1,24 @@
+﻿@model OkOt.Models.Entities.Dersler
+@{
+    ViewBag.Title = "DersEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Ders Ekle</h2>
+
+<form class="form-horizontal" method="post" action="../Ders/DersEkle">
+    <div class="form-group">
+        <label>Ders Adı</label>
+        <input type="text" class="form-control" name="DersAdi" />
+    </div>
+    <div class="form-group">
+        <label>Teorik</label>
+        <input type="text" class="form-control" name="DersTeorik" />
+    </div>
+    <div class="form-group">
+        <label>Uygulama</label>
+        <input type="text" class="form-control" name="DersUygulama" />
+    </div>
+    <input type="submit" class="btn btn-primary" value="Kaydet" />
+</form>
+

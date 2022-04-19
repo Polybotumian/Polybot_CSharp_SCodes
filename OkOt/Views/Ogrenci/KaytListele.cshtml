@@ -1,0 +1,36 @@
+﻿@model List<OkOt.Models.Entities.Ogrenci>
+@{
+    ViewBag.Title = "KaytListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bütün Öğrenciler</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Kodu</th>
+        <th>Adı</th>
+        <th>Soyadı</th>
+        <th>Cinsiyeti</th>
+        <th>Bölüm Kodu</th>
+        <th>Doğum Tarihi</th>
+        <th>Adresi</th>
+        <th>TC</th>
+    </tr>
+
+    @foreach (var ogrenci in Model)
+    {
+<tr>
+    <td>@ogrenci.OgrenciId</td>
+    <td>@ogrenci.OgrenciAdi</td>
+    <td>@ogrenci.OgrenciSoyadi</td>
+    <td>@ogrenci.OgrenciCinsiyet</td>
+    <td>@ogrenci.BolumOgrenci</td>
+    <td>@ogrenci.OgrenciDogumTarihi</td>
+    <td>@ogrenci.OgrenciAdres</td>
+    <td>@ogrenci.OgrenciTc</td>
+    <td><a href="../Ogrenci/OgrGuncelle/@ogrenci.OgrenciId">Güncelle</a></td>
+    <td><a href="../Ogrenci/OgrSil/@ogrenci.OgrenciId">Sil</a></td>
+</tr>
+    }
+</table>

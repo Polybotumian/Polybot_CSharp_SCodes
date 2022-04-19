@@ -1,0 +1,27 @@
+﻿@model List<OkOt.Models.Entities.Bolum>
+@{
+    ViewBag.Title = "KaytListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bütün Bölümler</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Bölüm Kodu</th>
+        <th>Bölüm Adı</th>
+        <th>Bölüm Kontenjanı</th>
+        <th>İşlemler</th>
+    </tr>
+
+    @foreach (var bolum in Model)
+    {
+        <tr>
+            <td>@bolum.BolumKod</td>
+            <td>@bolum.BolumAdi</td>
+            <td>@bolum.BolumKontenjan</td>
+            <td><a href="../Bolum/BolmGuncelle/@bolum.BolumKod">Güncelle</a></td>
+            <td><a href="../Bolum/BolmSil/@bolum.BolumKod">Sil</a></td>
+        </tr>
+    }
+</table>

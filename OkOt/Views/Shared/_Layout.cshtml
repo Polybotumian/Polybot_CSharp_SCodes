@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("OKOT", "", "", new { area = "" }, new { @class = "navbar-brand", @style="color: goldenrod; display: block"})
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" align="center">
+
+        @if (TempData["SMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SMessage"]
+            </div>
+        }
+        @if (TempData["FMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["FMessage"]
+            </div>
+        }
+
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Yiğit LEBLEBİCİER</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

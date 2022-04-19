@@ -1,0 +1,29 @@
+﻿@model List<OkOt.Models.Entities.Dersler>
+@{
+    ViewBag.Title = "KaytListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bütün Dersler</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Ders Kodu</th>
+        <th>Ders Adı</th>
+        <th>Teorik</th>
+        <th>Uygulama</th>
+    </tr>
+
+    @foreach (var ders in Model)
+    {
+        <tr>
+            <td>@ders.DersKod</td>
+            <td>@ders.DersAdi</td>
+            <td>@ders.DersTeorik</td>
+            <td>@ders.DersUygulama</td>
+            <td><a href="../Ders/DersGuncelle/@ders.DersKod">Güncelle</a></td>
+            <td><a href="../Ders/DersSil/@ders.DersKod">Sil</a></td>
+        </tr>
+    }
+</table>
+

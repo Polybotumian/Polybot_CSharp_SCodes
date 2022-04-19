@@ -1,0 +1,25 @@
+﻿@model List<OkOt.Models.Entities.AkademisyenDersler>
+@{
+    ViewBag.Title = "GirdDersler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Girdiği Dersler</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Akademisyen Kodu</th>
+        <th>Ders Kodu</th>
+    </tr>
+
+    @foreach (var akademDers in Model)
+    {
+        <tr>
+            <td>@akademDers.AkademisyenKod</td>
+            <td>@akademDers.Akademisyen</td>
+            <td><a href="../Akademisyen/AkademGuncelle/@akademDers.AkademisyenKod">Güncelle</a></td>
+            <td><a href="../Akademisyen/GirdDersler/@akademDers.AkademisyenKod">Girdiği Dersler</a></td>
+            <td><a href="../Akademisyen/AkademSil/@akademDers.AkademisyenKod">Sil</a></td>
+        </tr>
+    }
+</table>

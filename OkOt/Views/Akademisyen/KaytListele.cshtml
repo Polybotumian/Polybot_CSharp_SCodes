@@ -1,0 +1,35 @@
+﻿@model List<OkOt.Models.Entities.Akademisyen>
+@{
+    ViewBag.Title = "KaytListele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bütün Akademisyenler</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Kodu</th>
+        <th>Adı</th>
+        <th>Soyadı</th>
+        <th>Bölüm Kodu</th>
+        <th>Branşı</th>
+        <th>TC No</th>
+    </tr>
+
+    @foreach (var akademis in Model)
+    {
+<tr>
+    <td>@akademis.PersonelKod</td>
+    <td>@akademis.PersonelAdi</td>
+    <td>@akademis.PersonelSoyadi</td>
+    <td>@akademis.PersonelBolum</td>
+    <td>@akademis.PersonelBransi</td>
+    <td>@akademis.PersonelTc</td>
+    <td><a href="../Akademisyen/AkademGuncelle/@akademis.PersonelKod">Güncelle</a></td>
+    <td><a href="../Akademisyen/DersEkle/@akademis.PersonelKod">Ders Ekle</a></td>
+    <td><a href="../Akademisyen/GirdDersler/@akademis.PersonelKod">Girdiği Dersler</a></td>
+    <td><a href="../Akademisyen/AkademSil/@akademis.PersonelKod">Sil</a></td>
+</tr>
+    }
+</table>
+
