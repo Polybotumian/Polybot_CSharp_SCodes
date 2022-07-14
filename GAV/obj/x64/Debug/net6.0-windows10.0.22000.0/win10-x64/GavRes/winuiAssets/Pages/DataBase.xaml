@@ -1,0 +1,52 @@
+﻿<Page x:ConnectionId='1'
+    x:Name="DataBasePage"
+    x:Class="GAV.GavRes.winuiAssets.Pages.DataBase"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GAV.GavRes.winuiAssets.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:CommunityToolkit.WinUI.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <Border>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <controls:DataGrid x:ConnectionId='2' x:Name="topDataGrid" Grid.Row="1" Grid.ColumnSpan="2" GridLinesVisibility="All" VerticalScrollBarVisibility="Auto" SelectionMode="Single"
+                                                                                                                                  
+                                                                         AlternatingRowBackground="#4B4B4B"
+                               HorizontalAlignment="Stretch"                                                                              
+                               CanUserReorderColumns="False" CanUserSortColumns="False" ItemsSource="{Binding}" Background="#202020" Foreground="WhiteSmoke"
+                               />
+
+            <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Background="#4B4B4B">
+
+                <ComboBox x:ConnectionId='4' x:Name="filterComboBox" PlaceholderText="Filters" ItemsSource="{Binding}"/>
+                <TextBox x:ConnectionId='5' Name="SearcBox" PlaceholderText="..." Margin="5,0,0,0" Width="160"
+                     VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                <CheckBox x:ConnectionId='6' VerticalAlignment="Top" Margin="5,0,0,0" Content="Contains / Starts With"                                                           />
+
+                <Button x:ConnectionId='7' Content="Search" Margin="5,0,0,0" VerticalAlignment="Top" HorizontalAlignment="left"                           />
+                <Button x:ConnectionId='8' Content="Add Record" Margin="5,0,0,0" VerticalAlignment="Top" HorizontalAlignment="left"                              />
+                <Button x:ConnectionId='9' Content="Remove Record" Margin="5,0,0,0" VerticalAlignment="Top" HorizontalAlignment="left"                                 />
+                
+            </StackPanel>
+
+            <InfoBar x:ConnectionId='3' Name="infoBar" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="0" Grid.Row="2" IsOpen="False" IsIconVisible="True" IsClosable="True"
+                     Title="Title" Message="Info"/>
+
+        </Grid>
+    </Border>
+</Page>
+

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GAV (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "GAV (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

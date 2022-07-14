@@ -1,0 +1,1 @@
+C:\Users\Otlar\source\repos\GAV\GAV.csproj;x64

@@ -1,0 +1,61 @@
+﻿<Window x:ConnectionId='1'
+    x:Class="GAV.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GAV"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="appWindow"
+                             >
+
+    <NavigationView x:ConnectionId='2' x:Name="nav" x:FieldModifier="public"
+                    Background="#1c0e14"
+                    IsSettingsVisible="False"
+                    IsBackButtonVisible="Collapsed"
+                    IsPaneToggleButtonVisible="False"
+                    PaneDisplayMode="Left"
+                                             
+                    Foreground="WhiteSmoke"
+                    IsPaneOpen="False"
+                    x:Load="True">
+        <NavigationView.MenuItems>
+
+            <NavigationViewItem x:ConnectionId='3' Name="navItem_Account" x:FieldModifier="public" Content="Account" Icon="Account" ToolTipService.ToolTip="GAV account" Tag="account"/>
+            <NavigationViewItem x:ConnectionId='4' Name="navItem_Databases" x:FieldModifier="public" Content="Databases" ToolTipService.ToolTip="Databases" Tag="databases">
+
+                <NavigationViewItem.Icon>
+                    <BitmapIcon UriSource="ms-appx:///GavRes/winuiAssets/icons/database.png"/>
+                </NavigationViewItem.Icon>
+
+                <NavigationViewItem.MenuItems>
+
+                    <NavigationViewItem Content="Clients" ToolTipService.ToolTip="Client Database" Tag="client">
+                        <NavigationViewItem.Icon>
+                            <BitmapIcon UriSource="ms-appx:///GavRes/winuiAssets/icons/clients.png"/>
+                        </NavigationViewItem.Icon>
+                    </NavigationViewItem>
+
+                    <NavigationViewItem Content="Pets" ToolTipService.ToolTip="Pet Database" Tag="pet">
+                        <NavigationViewItem.Icon>
+                            <BitmapIcon UriSource="ms-appx:///GavRes/winuiAssets/icons/paw.png"/>
+                        </NavigationViewItem.Icon>
+                    </NavigationViewItem>
+
+                    <NavigationViewItem Content="Vets" ToolTipService.ToolTip="Veterinarian Database" Tag="vet">
+                        <NavigationViewItem.Icon>
+                            <BitmapIcon UriSource="ms-appx:///GavRes/winuiAssets/icons/stethoscope.png"/>
+                        </NavigationViewItem.Icon>
+                    </NavigationViewItem>
+
+                    <NavigationViewItem Content="Users" Icon="OtherUser" ToolTipService.ToolTip="User Database" Tag="user"/>
+
+                </NavigationViewItem.MenuItems>
+
+            </NavigationViewItem>
+
+        </NavigationView.MenuItems>
+        <Frame x:ConnectionId='5' x:Name="contentFrame" x:FieldModifier="public"/>
+    </NavigationView>
+</Window>
+
